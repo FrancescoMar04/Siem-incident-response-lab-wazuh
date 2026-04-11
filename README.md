@@ -1,4 +1,4 @@
-# 🚨SIEM Incident Response Lab With Wazuh
+# 🚨SIEM Incident Response Lab
 
 ## Overview
 This project simulates a real-world security incident in a controlled lab environment using a SIEM platform.
