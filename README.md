@@ -1,9 +1,9 @@
 # 🚨SIEM Incident Response Lab (Wazuh)
 
 ## Overview
-This project simulates a real-world security incident in a controlled lab environment using a SIEM platform.
+This project simulates a real-world security incident in a safe lab environment using a SIEM platform.
 
-The objective is to demonstrate how security events are collected, detected, and investigated, followed by a structured incident response and reporting process.
+The objective is to demonstrate how security events are collected, detected, investigated, followed by a structured incident response and a detailed reporting process.
 
 ---
 
