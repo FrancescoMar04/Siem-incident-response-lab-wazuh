@@ -1,4 +1,4 @@
-# 🚨SIEM Incident Response Lab
+# 🚨# SIEM Incident Response Lab (Wazuh)
 
 ## Overview
 This project simulates a real-world security incident in a controlled lab environment using a SIEM platform.
@@ -15,6 +15,16 @@ The objective is to demonstrate how security events are collected, detected, and
 
 ---
 
+## Tools Used
+
+- Wazuh  
+- Linux (Ubuntu Server)  
+- Kali Linux  
+- SSH  
+- Linux system logs  
+
+---
+
 ## Workflow
 
 The project is structured into the following phases:
@@ -27,3 +37,19 @@ The project is structured into the following phases:
 - Final report and findings  
 
 Detailed technical steps are documented in the `phases/` directory.
+
+---
+
+## Key Skills Demonstrated
+
+- SIEM log analysis and event correlation  
+- Alert triage and investigation  
+- Incident response workflow  
+- Security monitoring and detection  
+- Analysis of Linux authentication and system logs  
+
+---
+
+## Conclusion
+
+This project demonstrates a practical understanding of how a SIEM is used to detect, investigate, and respond to security incidents in a controlled environment.
