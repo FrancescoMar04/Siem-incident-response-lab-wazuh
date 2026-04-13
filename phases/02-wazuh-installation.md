@@ -32,7 +32,7 @@ After installation, the Wazuh dashboard was successfully accessed via web browse
 https://192.168.142.134
 ```
 
-![Wazuh Dashboard](../Pictures/screenshots/wazuh-dashboard.png)
+![Wazuh Dashboard](../screenshots/wazuh-dashboard.png)
 
 ---
 
