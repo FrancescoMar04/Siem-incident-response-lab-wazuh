@@ -31,7 +31,7 @@ The manager IP address was correctly set.
 The agent was registered to the Wazuh manager using the following command:
 
 ```id="0n79zq"
-sudo /var/ossec/bin/agent-auth -m <WAZUH_SERVER_IP>
+sudo /var/ossec/bin/agent-auth -m <192.168.142.134>
 ```
 
 After registration, the agent was restarted to apply the configuration.
