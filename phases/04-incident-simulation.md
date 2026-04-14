@@ -36,19 +36,19 @@ The system generated multiple alerts, including:
 
 ### Privilege Escalation Events
 
-![Privilege Escalation Events](../screenshots/01-privilege-escalation-events.png)
+![Privilege Escalation Events](../screenshots/privilege-escalation-events.png)
 
 ---
 
 ### Failed Sudo Attempts
 
-![Failed Sudo Attempts](../screenshots/02-failed-sudo-attempts.png)
+![Failed Sudo Attempts](../screenshots/failed-sudo-attempts.png)
 
 ---
 
 ### User Creation Event
 
-![User Creation Event](../screenshots/03-user-creation-event.png)
+![User Creation Event](../screenshots/user-creation-event.png)
 
 ---
 
