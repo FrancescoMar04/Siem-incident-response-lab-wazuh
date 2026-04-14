@@ -54,7 +54,7 @@ The system generated multiple alerts, including:
 
 ## Analysis
 
-The sequence of events demonstrates a realistic attack pattern:
+The sequence of events demonstrates an attack pattern:
 
 1. Multiple failed attempts to execute privileged commands
 2. Successful privilege escalation to root
