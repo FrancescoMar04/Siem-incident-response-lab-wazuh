@@ -1,4 +1,4 @@
-# Phase 04 – Incident Simulation and Detection
+# Phase 04 – Security Incident Detection With SIEM
 
 ## Objective
 
