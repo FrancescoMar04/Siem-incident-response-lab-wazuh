@@ -1,21 +1,23 @@
-# 🚨SIEM Incident Response Lab (Wazuh)
+# 🚨SIEM Incident Response Lab Wazuh
 
 ## Overview
-This project simulates a real-world security incident in a safe lab environment using a SIEM platform.
 
-The lab focuses on detecting and investigating suspicious authentication activity through real-time log analysis and alert correlation within Wazuh.
+This project simulates a real-world security incident in a controlled lab environment using a SIEM platform.
+
+The objective is to demonstrate how security events are collected, detected, analyzed, and handled through a structured incident response process.
 
 ---
+
 ## Workflow
 
 The project is structured into the following phases:
 
-1. Environment Setup  
-2. SIEM Installation  
-3. Agent Setup  
-4. Security Incident Detection  
-5. Log Analysis and Incident Response  
-6. Final Report  
+1. Environment Setup
+2. Wazuh Installation
+3. Agent Setup
+4. Security Incident Detection
+5. Log Analysis and Incident Investigation
+6. Final Report
 
 Detailed technical steps are documented in the `phases/` directory.
 
@@ -23,32 +25,40 @@ Detailed technical steps are documented in the `phases/` directory.
 
 ## Lab Architecture
 
-- SIEM: Wazuh Server  
-- Victim: Ubuntu Server (Wazuh agent)  
-- Attacker: Kali Linux  
+The lab environment consists of three virtual machines:
 
----
+* **SIEM Platform:** Wazuh Server
+* **Monitored Host:** Ubuntu Server
+* **Attacker Machine:** Kali Linux
 
-## Tools Used
+The network is configured using:
 
-- Wazuh  
-- Linux (Ubuntu Server)  
-- Kali Linux  
-- SSH  
-- Linux system logs  
+* NAT (internet access)
+* Host-Only network (internal communication)
 
 ---
 
 ## Key Skills Demonstrated
 
-- SIEM log analysis and event correlation  
-- Alert triage and investigation  
-- Incident response workflow  
-- Security monitoring and detection  
-- Analysis of Linux authentication and system logs  
+* SIEM deployment and configuration
+* Log collection and analysis
+* Security event detection
+* Incident investigation and response
+* Threat identification and interpretation
 
 ---
 
-## Conclusion
+## Tools Used
 
-This project demonstrates a practical understanding of how a SIEM is used to detect, investigate, and respond to security incidents in a controlled environment.
+* Wazuh
+* Ubuntu Server
+* Kali Linux
+
+---
+
+## Project Outcome
+
+This lab demonstrates practical skills in security monitoring, incident detection, and analysis using a SIEM platform.
+
+It highlights the importance of centralized logging and proactive threat detection in modern cybersecurity environments.
+
