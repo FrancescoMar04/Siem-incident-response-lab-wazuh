@@ -3,7 +3,7 @@
 ## Overview
 This project simulates a real-world security incident in a safe lab environment using a SIEM platform.
 
-The objective is to demonstrate how security events are collected, detected, investigated, followed by a structured incident response and a detailed reporting process.
+The lab focuses on detecting and investigating suspicious authentication activity through real-time log analysis and alert correlation within Wazuh.
 
 ---
 
