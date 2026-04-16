@@ -6,6 +6,20 @@ This project simulates a real-world security incident in a safe lab environment 
 The lab focuses on detecting and investigating suspicious authentication activity through real-time log analysis and alert correlation within Wazuh.
 
 ---
+## Workflow
+
+The project is structured into the following phases:
+
+- Environment setup  
+- Log ingestion and validation  
+- Incident simulation  
+- Alert detection and triage  
+- Incident investigation and response  
+- Final report and findings  
+
+Detailed technical steps are documented in the `phases/` directory.
+
+---
 
 ## Lab Architecture
 
@@ -22,21 +36,6 @@ The lab focuses on detecting and investigating suspicious authentication activit
 - Kali Linux  
 - SSH  
 - Linux system logs  
-
----
-
-## Workflow
-
-The project is structured into the following phases:
-
-- Environment setup  
-- Log ingestion and validation  
-- Incident simulation  
-- Alert detection and triage  
-- Incident investigation and response  
-- Final report and findings  
-
-Detailed technical steps are documented in the `phases/` directory.
 
 ---
 
