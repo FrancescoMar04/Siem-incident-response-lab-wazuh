@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of this phase is to analyze the detected security incident, understand its impact, and propose appropriate response actions.
+The objective of this phase is to analyze the detected security incident, assess its impact, and follow a structured response process aligned with SOC operations.
 
 ---
 
@@ -10,9 +10,13 @@ The objective of this phase is to analyze the detected security incident, unders
 
 During monitoring activities, multiple alerts were generated indicating suspicious behavior on the Ubuntu server.
 
-The events suggest that a user account performed unauthorized privileged actions, including repeated failed attempts to execute sudo commands, successful privilege escalation, and the creation of a new user account.
+The detected events include:
 
-This behavior is consistent with a potential account compromise.
+* Multiple failed attempts to execute privileged commands using `sudo`
+* Successful privilege escalation to root
+* Creation of a new user account (`backdoor_user`)
+
+This behavior is consistent with a potential compromise of a legitimate user account.
 
 ---
 
@@ -20,51 +24,84 @@ This behavior is consistent with a potential account compromise.
 
 The incident followed a clear sequence:
 
-1. Multiple failed attempts to execute privileged commands using `sudo`
-2. Successful privilege escalation to root access
-3. Creation of a new user account (`backdoor_user`)
+1. Multiple failed attempts to execute privileged commands
+2. Successful privilege escalation to root
+3. Creation of a new user account for persistence
 
-This sequence indicates a progression from initial access attempts to full system control and persistence.
+This progression reflects a typical post-compromise scenario.
 
 ---
 
 ## Analysis
 
-The detected activity indicates a potential compromise of a legitimate user account.
+The repeated failed sudo attempts suggest that the user was attempting to gain elevated privileges.
 
-The repeated failed sudo attempts suggest that the attacker was trying to gain elevated privileges.
-Once successful, the attacker executed privileged commands and created a new user account.
+After successfully obtaining root access, the user executed privileged actions and created a new account.
+This activity indicates a potential persistence mechanism, allowing continued access to the system.
 
-The creation of a new account represents a persistence mechanism, allowing continued access to the system.
+The combination of these events strongly suggests unauthorized use of privileges and a compromised account.
 
 ---
 
 ## Impact Assessment
 
-If this incident occurred in a real environment, the impact could be significant:
+If this incident occurred in a real environment, the potential impact could include:
 
-* Full administrative access to the system
-* Ability to modify or delete sensitive data
-* Potential lateral movement to other systems
-* Long-term persistence through unauthorized accounts
+* Full administrative control over the system
+* Unauthorized access to sensitive data
+* Ability to modify or disrupt system operations
+* Persistence through unauthorized account creation
 
 ---
 
-## Response and Recommendations
+## Response Actions
+
+At this stage, no direct remediation actions were performed.
+
+In a real SOC environment, initial containment and remediation activities are typically handled by higher-level teams after proper validation and escalation.
+
+---
+
+## Incident Report (Escalation)
+
+**Title:** Suspicious Privilege Escalation and Unauthorized User Creation Detected
+
+**Severity:** High
+
+**Summary:**
+Multiple security alerts were triggered on the Ubuntu server indicating suspicious privileged activity. The events suggest a potential compromise of a user account.
+
+**Details:**
+The following sequence of actions was observed:
+
+* Multiple failed attempts to execute privileged commands using `sudo`
+* Successful privilege escalation to root access
+* Creation of a new user account (`backdoor_user`)
+
+These activities indicate possible unauthorized access and the establishment of persistence on the system.
+
+**Impact:**
+The attacker may have gained full administrative control of the system, with the ability to access sensitive data, modify configurations, and maintain long-term access.
+
+**Status:** Escalated to Incident Response Team for further investigation and containment
+
+---
+
+## Recommendations
 
 To mitigate and prevent similar incidents, the following actions are recommended:
 
 * Enforce strong password policies
-* Limit sudo privileges to necessary users only
-* Monitor and alert on failed sudo attempts
-* Regularly audit user accounts and remove unauthorized ones
+* Restrict and monitor sudo privileges
+* Monitor failed privilege escalation attempts
+* Regularly audit user accounts
 * Implement multi-factor authentication (MFA)
-* Enable detailed logging and continuous monitoring
+* Maintain continuous log monitoring
 
 ---
 
 ## Conclusion
 
-The SIEM successfully detected the suspicious activity and provided visibility into the attack progression.
+The SIEM successfully detected and correlated multiple suspicious events, providing clear visibility into the incident.
 
-This phase demonstrates the importance of log analysis and proactive monitoring in identifying and responding to potential security incidents.
+This phase demonstrates the importance of structured analysis, proper escalation, and coordinated response in a SOC environment.
