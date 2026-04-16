@@ -10,12 +10,12 @@ The lab focuses on detecting and investigating suspicious authentication activit
 
 The project is structured into the following phases:
 
-- Environment setup  
-- Wazuh Installation 
-- Agent Setup 
-- Security Incident Detection With SIEM
-- Log Analysis and Incident Response 
-- Final report 
+1. Environment Setup  
+2. SIEM Installation  
+3. Agent Setup  
+4. Security Incident Detection  
+5. Log Analysis and Incident Response  
+6. Final Report  
 
 Detailed technical steps are documented in the `phases/` directory.
 
