@@ -12,10 +12,10 @@ The project is structured into the following phases:
 
 - Environment setup  
 - Wazuh Installation 
-- Incident simulation  
-- Alert detection and triage  
-- Incident investigation and response  
-- Final report and findings  
+- Agent Setup 
+- Security Incident Detection With SIEM
+- Incident Analysis and Response 
+- Final report and Conclusion  
 
 Detailed technical steps are documented in the `phases/` directory.
 
