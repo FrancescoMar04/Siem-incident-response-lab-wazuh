@@ -14,8 +14,8 @@ The project is structured into the following phases:
 - Wazuh Installation 
 - Agent Setup 
 - Security Incident Detection With SIEM
-- Incident Analysis and Response 
-- Final report and Conclusion  
+- Log Analysis and Incident Response 
+- Final report 
 
 Detailed technical steps are documented in the `phases/` directory.
 
