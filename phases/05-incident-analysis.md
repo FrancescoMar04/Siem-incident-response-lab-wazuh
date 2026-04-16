@@ -37,7 +37,7 @@ This progression reflects a typical post-compromise scenario.
 The repeated failed sudo attempts suggest that the user was attempting to gain elevated privileges.
 
 After successfully obtaining root access, the user executed privileged actions and created a new account.
-This activity indicates a potential persistence mechanism, allowing continued access to the system.
+This activity represents a potential persistence mechanism, allowing continued access to the system.
 
 The combination of these events strongly suggests unauthorized use of privileges and a compromised account.
 
@@ -58,7 +58,9 @@ If this incident occurred in a real environment, the potential impact could incl
 
 At this stage, no direct remediation actions were performed.
 
-In a real SOC environment, initial containment and remediation activities are typically handled by higher-level teams after proper validation and escalation.
+The incident was validated and escalated according to standard SOC procedures.
+
+In a real SOC environment, containment and remediation activities are typically handled by higher-level teams after proper validation and escalation.
 
 ---
 
@@ -84,12 +86,13 @@ These activities indicate possible unauthorized access and the establishment of 
 The attacker may have gained full administrative control of the system, with the ability to access sensitive data, modify configurations, and maintain long-term access.
 
 **Status:** Escalated to Incident Response Team for further investigation and containment
+**Assigned To:** Incident Response Team
 
 ---
 
 ## Recommendations
 
-To mitigate and prevent similar incidents, the following actions are recommended:
+The following general security measures are recommended:
 
 * Enforce strong password policies
 * Restrict and monitor sudo privileges
