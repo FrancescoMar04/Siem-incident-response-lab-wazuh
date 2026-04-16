@@ -22,11 +22,11 @@ The environment is configured using:
 - NAT network for internet access
 - Host-Only network for internal communication between machines
 
-This configuartion allows controlled interaction between the attacker and the victim system.
+This configuration allows controlled interaction between the attacker and the victim system.
 
 ---
 
-## Roles and Responabilities
+## Roles and Responsabilities
 
 - Kali Linux is used to simulate malicious activity
 - Ubuntu Server generates logs and acts as the monitored system
