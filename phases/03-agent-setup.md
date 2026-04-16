@@ -1,4 +1,4 @@
-# Phase 03 – Agent Setup and Log Collection
+# Phase 03 – Agent Setup
 
 ## Objective
 
