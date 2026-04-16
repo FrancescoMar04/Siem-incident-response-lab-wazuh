@@ -11,7 +11,7 @@ The lab focuses on detecting and investigating suspicious authentication activit
 The project is structured into the following phases:
 
 - Environment setup  
-- Log ingestion and validation  
+- Wazuh Installation 
 - Incident simulation  
 - Alert detection and triage  
 - Incident investigation and response  
