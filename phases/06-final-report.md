@@ -42,14 +42,14 @@ These actions indicate a potential compromise of a legitimate user account.
 
 ## Lessons Learned
 
-* Continuous monitoring is essential for early detection of threats
-* Privileged access should be strictly controlled and monitored
+* Continuous monitoring is essential for detection of threats
+* Privileged access should be (and need to be) strictly controlled and monitored
 * Correlation of multiple events is key to identifying real security incidents
 
 ---
 
 ## Conclusion
 
-This project demonstrates practical skills in SIEM usage, incident detection, and analysis.
+This project demonstrates my practical skills in SIEM usage, incident detection, and analysis.
 
-It highlights the importance of proactive monitoring and structured incident response in modern cybersecurity environments.
+It highlights the importance of proactive monitoring and structured incident response in a modern cybersecurity environments.
