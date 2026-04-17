@@ -1,4 +1,4 @@
-# 🚨SIEM Incident Response Lab Wazuh
+# 🚨SIEM Incident Response Lab
 
 ## Overview
 
