@@ -45,6 +45,7 @@ The network is configured using:
 * Security event detection
 * Incident investigation and response
 * Threat identification and interpretation
+* Write a report to the supervisor
 
 ---
 
