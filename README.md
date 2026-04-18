@@ -19,7 +19,7 @@ The project is structured into the following phases:
 5. Log Analysis and Incident Investigation
 6. Final Report
 
-Detailed technical steps are documented in the `phases/` directory.
+To explore the full project, see the `phases/` directory.
 
 ---
 
