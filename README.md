@@ -16,7 +16,7 @@ The lab simulates a security incident involving unauthorized access and privileg
 - Successful SSH authentication on the target system
 - Execution of privileged commands via `sudo`  
 - Creation of a new user account as a persistence mechanism  
-- Log collection and correlation via :contentReference[oaicite:0]{index=0}
+- Log collection and correlation
 
 The SIEM detects suspicious authentication patterns and privilege escalation activity.
 
