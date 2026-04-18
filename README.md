@@ -1,6 +1,8 @@
 # 🚨 SIEM Incident Response Lab 
 
-## Overview This project simulates a realistic cybersecurity incident within a controlled lab environment using a SIEM platform. 
+## Overview 
+
+This project simulates a realistic cybersecurity incident within a controlled lab environment using a SIEM platform. 
 
 The goal is to demonstrate how security events are **collected, correlated, and analyzed** to detect and respond to a potential intrusion.
 
