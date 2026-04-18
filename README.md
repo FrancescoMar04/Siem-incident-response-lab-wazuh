@@ -13,10 +13,10 @@ The goal is to demonstrate how security events are **collected, correlated, and 
 The lab simulates a security incident involving unauthorized access and privilege escalation:
 
 - Multiple failed authentication attempts on the target system  
-- Successful login to the :contentReference[oaicite:0]{index=0} host  
+- Successful SSH authentication on the target system
 - Execution of privileged commands via `sudo`  
 - Creation of a new user account as a persistence mechanism  
-- Log collection and correlation via :contentReference[oaicite:1]{index=1}  
+- Log collection and correlation via :contentReference[oaicite:0]{index=0}
 
 The SIEM detects suspicious authentication patterns and privilege escalation activity.
 
@@ -58,7 +58,7 @@ The environment consists of three virtual machines:
 
 * Step-by-step SIEM deployment and configuration
 * Real log samples (e.g. `/var/log/auth.log`)
-* Detection of brute-force attempts and related alerts
+* Detection of authentication anomalies and privilege escalation activity
 * Event correlation and incident investigation workflow
 * Final incident report with findings and conclusions
 
