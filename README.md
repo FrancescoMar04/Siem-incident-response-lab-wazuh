@@ -57,7 +57,7 @@ The environment consists of three virtual machines:
 ## What You Will Find in `phases/`
 
 * Step-by-step SIEM deployment and configuration
-* Real log samples (e.g. `/var/log/auth.log`)
+* Real log samples
 * Detection of authentication anomalies and privilege escalation activity
 * Event correlation and incident investigation workflow
 * Final incident report with findings and conclusions
