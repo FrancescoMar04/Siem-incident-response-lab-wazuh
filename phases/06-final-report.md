@@ -43,7 +43,7 @@ These actions indicate a potential compromise of a legitimate user account.
 ## Lessons Learned
 
 * Continuous monitoring is essential for detection of threats
-* Privileged access should be (and need to be) strictly controlled and monitored
+* Privileged access should be strictly controlled and monitored
 * Correlation of multiple events is key to identifying real security incidents
 
 ---
