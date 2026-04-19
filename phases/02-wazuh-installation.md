@@ -29,7 +29,7 @@ sudo ./wazuh-install.sh -a -i
 After installation, the Wazuh dashboard was successfully accessed via web browser:
 
 ```
-https://192.168.142.134
+https://192.168.142.134 (Wazuh Server)
 ```
 
 ![Wazuh Dashboard](../screenshots/wazuh-dashboard.png)
@@ -45,10 +45,10 @@ All core services were verified:
 * wazuh-dashboard
 
 All services were running correctly.
+At this stage, no agents are connected yet. Agent deployment will be performed in the next phase to enable log collection.
 
 ---
 
 ## Outcome
 
-Wazuh SIEM is successfully installed and accessible.
-The environment is now ready for agent integration and log collection.
+Wazuh SIEM is successfully installed and fully operational. The system is now ready for agent integration, log collection, and security monitoring.
