@@ -31,7 +31,7 @@ The manager IP address was correctly set.
 The agent was registered to the Wazuh manager using the following command:
 
 ```id="0n79zq"
-sudo /var/ossec/bin/agent-auth -m <192.168.142.134>
+sudo /var/ossec/bin/agent-auth -m 192.168.142.134
 ```
 
 After registration, the agent was restarted to apply the configuration.
@@ -54,4 +54,4 @@ The agent status was verified:
 
 The endpoint is successfully connected to the SIEM platform.
 Log collection and monitoring are now active.
-
+The agent collects system and authentication logs (e.g. /var/log/auth.log) and forwards them to the Wazuh server for analysis.
