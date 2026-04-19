@@ -26,14 +26,16 @@ This configuration allows controlled interaction between the attacker and the vi
 
 ---
 
-## Roles and Responsabilities
+## Roles and Responsibilities
 
 - Kali Linux is used to simulate malicious activity
 - Ubuntu Server generates logs and acts as the monitored system
-- Wazuh Server collects, analyzes, and correlates security events
+- Wazuh Server collects logs from monitored endpoints, analyzes them, and correlates security events
+
+The monitored host (Ubuntu Server) generates system and authentication logs, which are forwarded to the Wazuh server for analysis.
 
 ---
 
 ## Outcome
 
-The lab environment is successfully configured and ready for SIEM deployment and monitoring activities.
+The lab environment is successfully configured, and communication between all machines is verified. The system is ready for SIEM deployment, log collection, and monitoring activities.
