@@ -60,7 +60,7 @@ At this stage, no direct remediation actions were performed.
 
 The incident was validated and escalated according to standard SOC procedures.
 
-In a real SOC environment, containment and remediation activities are typically handled by higher-level teams after proper validation and escalation. This is why I created a report to send to the Incident Response Team.
+In a real SOC environment, containment and remediation activities are typically handled by higher-level teams after proper validation and escalation. For this reason I created a report to send to the Incident Response Team.
 
 ---
 
