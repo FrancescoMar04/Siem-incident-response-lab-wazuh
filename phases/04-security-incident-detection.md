@@ -30,6 +30,8 @@ The system generated multiple alerts, including:
 * Alerts for successful privilege escalation
 * Alerts for new user creation (persistence technique)
 
+The SIEM detects these activities by analyzing system logs and applying predefined detection rules for suspicious privilege and authentication behavior.
+
 ---
 
 ## Evidence
@@ -66,6 +68,4 @@ This behavior is consistent with a compromised account attempting to gain full c
 
 ## Outcome
 
-The SIEM successfully detected and logged all suspicious activities.
-
-This confirms the effectiveness of centralized log monitoring and real-time alerting in identifying potential security incidents.
+The correlation of multiple related alerts highlights the importance of SIEM platforms in identifying complex attack patterns rather than isolated events.
