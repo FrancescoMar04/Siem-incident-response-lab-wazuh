@@ -16,8 +16,6 @@ The environment consisted of:
 * A monitored endpoint generating logs
 * A simulated attacker scenario
 
-The lab successfully replicated a realistic post-compromise scenario.
-
 ---
 
 ## Incident Summary
